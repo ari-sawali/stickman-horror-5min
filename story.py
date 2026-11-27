@@ -1,0 +1,28 @@
+# story.py — "The Seventh Knock" — original horror story, single source for VO + cues.
+# scene ids: 1 bedroom, 2 wall/hallway, 3 kitchen, 4 library, 5 street, 6 basement,
+#            7 mirror, 8 attic, 9 fire-night, 10 dawn
+SEGMENTS = [
+ dict(scene=1, face="neutral", face2="worried", text="On our first night in the new house, I heard a knock come from inside my bedroom wall. Just one. Slow, and patient, like somebody politely asking to be let out."),
+ dict(scene=2, face="worried", face2="scared", text="I pressed my ear against the wallpaper, and the wall felt cold, colder than the rest of the room. Then something inside it knocked back. Once. Right beside my ear."),
+ dict(scene=3, face="happy", face2="neutral", text="At breakfast I told my parents, and Dad laughed and said old houses settle, and pipes complain, and ten-year-old boys have excellent imaginations. Mom gave me extra toast, her cure for everything."),
+ dict(scene=1, face="worried", face2="count", text="The second night, there were two knocks. I counted them like seconds between lightning and thunder. Knock. A long, held breath of silence. Knock. Closer than before."),
+ dict(scene=4, face="neutral", face2="count", text="At the library, Mrs. Fern went very quiet when I told her our address. She turned the microfilm dial, and a headline from nineteen seventy-four appeared."),
+ dict(scene=4, face="solemn", face2="worried", text="A fire, the paper said. The family got out, all except their youngest boy, Ellis, who was never found. The investigators wrote one strange sentence. The walls of that house were hollow, and wider than they should be."),
+ dict(scene=2, face="count", face2="scared", text="The third night, there were three knocks, and I understood the pattern the way you understand a staircase in the dark. One more knock, every single night. Counting up. Counting toward something."),
+ dict(scene=8, face="neutral", face2="scared", text="In the attic I found a photograph taped inside a trunk. A birthday party, nine candles, and a boy standing apart from everyone. I turned it over. Someone had scratched out his face."),
+ dict(scene=7, face="worried", face2="scared", text="That evening, in the bathroom mirror, he stood behind me. Pale as paste. Smooth where his face should be. I spun around. The room was empty, but the mirror fogged by itself, from the inside."),
+ dict(scene=3, face="scared", face2="worried", text="The fourth night, there were four knocks, and my parents heard them too. Nobody laughed about pipes. Dad stood in the hallway barefoot, holding a frying pan like a shield, saying nothing."),
+ dict(scene=6, face="neutral", face2="worried", text="Dad checked the basement twice. The furnace was old but sound, he said. But when he came back upstairs, he was frowning at his hands, and his hands were dusty, and cold."),
+ dict(scene=4, face="solemn", face2="neutral", text="Mrs. Fern told me the rest the next day. Every family that moved into that house reported the same thing. Knocking, always counting up. And every family left before it reached seven."),
+ dict(scene=1, face="count", face2="scared", text="The fifth night, there were five knocks, and underneath them I heard something moving inside the wall. Not scurrying, like mice. Shifting. Somebody turning over in a very narrow bed."),
+ dict(scene=2, face="worried", face2="scared", text="So I did the thing I had feared since the first night. I knocked back. Once. The wall went silent for one heartbeat. Then every wall in the house knocked at the same time."),
+ dict(scene=2, face="scared", face2="scared", text="He was in the hallway when I opened my door. Stretched thin, like the years inside the wall had pulled him long. Where his face should be, only smooth, pale skin. He raised one finger, and pointed down."),
+ dict(scene=6, face="scared", face2="count", text="Down meant the basement. I took the stairs two at a time, phone torch shaking, and I smelled it before I saw it. Sweet, chemical, wrong. Gas, pooling under the house."),
+ dict(scene=6, face="count", face2="worried", text="Behind the furnace, a pipe joint had split, hairline thin, hissing like a kettle. Below it, the pilot light burned, patient as an eye. We had hours, the fireman said later. Maybe less."),
+ dict(scene=9, face="scared", face2="worried", text="I have never run upstairs so fast. Dad called the emergency line with shaking hands. Mom carried my sister out in a blanket, still asleep, still dreaming ordinary things."),
+ dict(scene=9, face="worried", face2="neutral", text="The sixth night, we watched from the pavement in borrowed blankets while men with torches made our house safe. The count had stopped at six. Because we had finally listened at six."),
+ dict(scene=10, face="neutral", face2="solemn", text="When the firefighters opened the wall, they found a space no wider than a coffin, and fifty years of tally marks in the wood. At the end of the marks, one word, carved deep. Listen."),
+ dict(scene=10, face="solemn", face2="happy", text="They also found a tin whistle, and a photograph, the twin of mine. In this one, nobody had scratched out his face. Ellis was smiling, missing one front tooth, holding a birthday cake, proud as anything."),
+ dict(scene=10, face="happy", face2="neutral", text="We live in that house again now. The wall is solid, the pipes are new. But every family on our street knows the story, and every kid knows the rule."),
+ dict(scene=1, face="happy", face2="neutral", text="Because sometimes, late, I still knock once on my bedroom wall before I sleep. Softly. The way you knock on a friend's door. And every time, from somewhere far away and finally at rest, something kind knocks back. Once."),
+]

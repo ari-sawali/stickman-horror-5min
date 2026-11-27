@@ -1,0 +1,166 @@
+# ============================================================
+# Render Remotion PARALEL (v2) — copy ke .github/workflows/render-parallel.yml
+# ------------------------------------------------------------
+# Cara kerja:
+#   1. Job "setup"  : hitung range frame per chunk (matrix dinamis).
+#   2. Job "chunk"  : N job jalan BARENG di mesin GitHub terpisah,
+#                     tiap job render satu range frame (--frames=start-end).
+#   3. Job "merge"  : download semua chunk, gabung pakai ffmpeg concat,
+#                     mux audio, ffprobe, upload mp4 final sebagai artifact.
+#
+# AUDIO — pilihan desain (disengaja, mengikuti pola skill
+# claude-animated-shorts yang mux audionya di akhir):
+#   Chunk SELALU dirender muted (--muted). Audio dari render range
+#   frame parsial tidak diandalkan. Audio final datang dari SATU file
+#   audio full-length yang sudah di-mix (voice+musik) di repo, diisi
+#   lewat input "audio_file" (mis. public/mix.wav, panjang harus sama
+#   dengan durasi video). Merge me-mux: -map 0:v:0 -map 1:a:0.
+#   Kalau audio_file kosong -> hasil akhir tanpa audio (video saja).
+#
+# Kapan pakai ini vs render-remotion.yml (v1 single job):
+#   - Video panjang / berat (3D, WebGL): pakai v2 ini (sampai 10x mesin).
+#   - Video pendek / render cepat: v1 lebih simpel, tanpa setup merge.
+# Catatan: repo PUBLIC = menit Actions gratis tanpa batas (runner standar).
+#          Butuh package-lock.json di repo untuk cache npm.
+# ============================================================
+name: Render Remotion Parallel
+
+on:
+  workflow_dispatch:
+    inputs:
+      composition:
+        description: "Composition ID"
+        required: true
+        default: "Main"
+      total_frames:
+        description: "Total frame di composition (durationInFrames)"
+        required: true
+        default: "1800"
+      chunks:
+        description: "Jumlah mesin paralel (1-10)"
+        required: true
+        default: "10"
+      audio_file:
+        description: "File audio full-length di repo buat di-mux (kosong = tanpa audio)"
+        required: false
+        default: ""
+      output_name:
+        description: "Nama file final"
+        required: true
+        default: "out.mp4"
+      concurrency:
+        description: "Concurrency Remotion per mesin"
+        required: false
+        default: "4"
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.calc.outputs.matrix }}
+    steps:
+      - id: calc
+        run: |
+          python3 - <<'EOF'
+          import json, math, os
+          total = int("${{ inputs.total_frames }}")
+          n = max(1, min(10, int("${{ inputs.chunks }}")))
+          size = math.ceil(total / n)
+          chunks = []
+          i = 0
+          start = 0
+          while start < total:
+              end = min(start + size - 1, total - 1)
+              chunks.append({"index": i, "start": start, "end": end})
+              i += 1
+              start = end + 1
+          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+              f.write("matrix=" + json.dumps({"include": chunks}) + "\n")
+          print("chunks:", chunks)
+          EOF
+
+  chunk:
+    needs: setup
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJson(needs.setup.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      # Deps Chrome headless buat Remotion + WebGL (SwiftShader)
+      - name: Install system deps
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libnss3 libdbus-1-3 libatk1.0-0 libatk-bridge2.0-0 libgtk-3-0 libxkbcommon0 libatspi2.0-0 libxcomposite1 libxdamage1 libxfixes3 libxrandr2 libgbm1 libpango-1.0-0 libcairo2 libasound2t64
+
+      - name: Install project deps
+        run: npm ci || npm install
+
+      - name: Ensure Remotion browser
+        run: npx remotion browser ensure
+
+      - name: Render chunk ${{ matrix.index }} (frames ${{ matrix.start }}-${{ matrix.end }})
+        run: |
+          PAD=$(printf "%03d" "${{ matrix.index }}")
+          npx remotion render "${{ inputs.composition }}" "chunk-${PAD}.mp4" \
+            --frames="${{ matrix.start }}-${{ matrix.end }}" \
+            --muted \
+            --concurrency="${{ inputs.concurrency }}" \
+            --gl=swangle
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: chunk-${{ matrix.index }}
+          path: chunk-*.mp4
+          retention-days: 7
+
+  merge:
+    needs: chunk
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install ffmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: chunk-*
+          path: chunks
+          merge-multiple: true
+
+      - name: Concat chunks + mux audio
+        run: |
+          ls -la chunks/
+          ls chunks/*.mp4 | sort > concat.txt
+          sed -i "s/.*/file '&'/" concat.txt
+          cat concat.txt
+          ffmpeg -y -f concat -safe 0 -i concat.txt -c copy video-only.mp4
+          AUDIO="${{ inputs.audio_file }}"
+          if [ -n "$AUDIO" ] && [ -f "$AUDIO" ]; then
+            echo "Muxing audio from $AUDIO"
+            ffmpeg -y -i video-only.mp4 -i "$AUDIO" \
+              -map 0:v:0 -map 1:a:0 -c:v copy -c:a aac -shortest "${{ inputs.output_name }}"
+          else
+            echo "No audio_file — final tanpa audio"
+            cp video-only.mp4 "${{ inputs.output_name }}"
+          fi
+
+      - name: Verify final
+        run: ffprobe -hide_banner "${{ inputs.output_name }}"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: final-${{ inputs.output_name }}
+          path: ${{ inputs.output_name }}
+          retention-days: 14

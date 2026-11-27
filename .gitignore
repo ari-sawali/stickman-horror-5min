@@ -1,0 +1,8 @@
+node_modules/
+vo/
+vo_text/
+tmp/
+qa/
+raw_mix.wav
+*.log
+out/

@@ -1,0 +1,1326 @@
+{
+ "dur": 291.039,
+ "fps": 30,
+ "segs": [
+  {
+   "i": 1,
+   "start": 0.4,
+   "dur": 9.66,
+   "text": "On our first night in the new house, I heard a knock come from inside my bedroom wall. Just one. Slow, and patient, like somebody politely asking to be let out.",
+   "scene": 1,
+   "face": "neutral",
+   "face2": "worried"
+  },
+  {
+   "i": 2,
+   "start": 10.61,
+   "dur": 10.077,
+   "text": "I pressed my ear against the wallpaper, and the wall felt cold, colder than the rest of the room. Then something inside it knocked back. Once. Right beside my ear.",
+   "scene": 2,
+   "face": "worried",
+   "face2": "scared"
+  },
+  {
+   "i": 3,
+   "start": 21.237,
+   "dur": 12.957,
+   "text": "At breakfast I told my parents, and Dad laughed and said old houses settle, and pipes complain, and ten-year-old boys have excellent imaginations. Mom gave me extra toast, her cure for everything.",
+   "scene": 3,
+   "face": "happy",
+   "face2": "neutral"
+  },
+  {
+   "i": 4,
+   "start": 34.744,
+   "dur": 12.028,
+   "text": "The second night, there were two knocks. I counted them like seconds between lightning and thunder. Knock. A long, held breath of silence. Knock. Closer than before.",
+   "scene": 1,
+   "face": "worried",
+   "face2": "count"
+  },
+  {
+   "i": 5,
+   "start": 47.322,
+   "dur": 8.545,
+   "text": "At the library, Mrs. Fern went very quiet when I told her our address. She turned the microfilm dial, and a headline from nineteen seventy-four appeared.",
+   "scene": 4,
+   "face": "neutral",
+   "face2": "count"
+  },
+  {
+   "i": 6,
+   "start": 56.417,
+   "dur": 14.303,
+   "text": "A fire, the paper said. The family got out, all except their youngest boy, Ellis, who was never found. The investigators wrote one strange sentence. The walls of that house were hollow, and wider than they should be.",
+   "scene": 4,
+   "face": "solemn",
+   "face2": "worried"
+  },
+  {
+   "i": 7,
+   "start": 71.27,
+   "dur": 10.263,
+   "text": "The third night, there were three knocks, and I understood the pattern the way you understand a staircase in the dark. One more knock, every single night. Counting up. Counting toward something.",
+   "scene": 2,
+   "face": "count",
+   "face2": "scared"
+  },
+  {
+   "i": 8,
+   "start": 82.083,
+   "dur": 10.588,
+   "text": "In the attic I found a photograph taped inside a trunk. A birthday party, nine candles, and a boy standing apart from everyone. I turned it over. Someone had scratched out his face.",
+   "scene": 8,
+   "face": "neutral",
+   "face2": "scared"
+  },
+  {
+   "i": 9,
+   "start": 93.222,
+   "dur": 13.282,
+   "text": "That evening, in the bathroom mirror, he stood behind me. Pale as paste. Smooth where his face should be. I spun around. The room was empty, but the mirror fogged by itself, from the inside.",
+   "scene": 7,
+   "face": "worried",
+   "face2": "scared"
+  },
+  {
+   "i": 10,
+   "start": 107.053,
+   "dur": 10.774,
+   "text": "The fourth night, there were four knocks, and my parents heard them too. Nobody laughed about pipes. Dad stood in the hallway barefoot, holding a frying pan like a shield, saying nothing.",
+   "scene": 3,
+   "face": "scared",
+   "face2": "worried"
+  },
+  {
+   "i": 11,
+   "start": 118.377,
+   "dur": 9.706,
+   "text": "Dad checked the basement twice. The furnace was old but sound, he said. But when he came back upstairs, he was frowning at his hands, and his hands were dusty, and cold.",
+   "scene": 6,
+   "face": "neutral",
+   "face2": "worried"
+  },
+  {
+   "i": 12,
+   "start": 128.633,
+   "dur": 9.752,
+   "text": "Mrs. Fern told me the rest the next day. Every family that moved into that house reported the same thing. Knocking, always counting up. And every family left before it reached seven.",
+   "scene": 4,
+   "face": "solemn",
+   "face2": "neutral"
+  },
+  {
+   "i": 13,
+   "start": 138.936,
+   "dur": 10.031,
+   "text": "The fifth night, there were five knocks, and underneath them I heard something moving inside the wall. Not scurrying, like mice. Shifting. Somebody turning over in a very narrow bed.",
+   "scene": 1,
+   "face": "count",
+   "face2": "scared"
+  },
+  {
+   "i": 14,
+   "start": 149.517,
+   "dur": 11.238,
+   "text": "So I did the thing I had feared since the first night. I knocked back. Once. The wall went silent for one heartbeat. Then every wall in the house knocked at the same time.",
+   "scene": 2,
+   "face": "worried",
+   "face2": "scared"
+  },
+  {
+   "i": 15,
+   "start": 164.305,
+   "dur": 12.91,
+   "text": "He was in the hallway when I opened my door. Stretched thin, like the years inside the wall had pulled him long. Where his face should be, only smooth, pale skin. He raised one finger, and pointed down.",
+   "scene": 2,
+   "face": "scared",
+   "face2": "scared"
+  },
+  {
+   "i": 16,
+   "start": 177.766,
+   "dur": 12.074,
+   "text": "Down meant the basement. I took the stairs two at a time, phone torch shaking, and I smelled it before I saw it. Sweet, chemical, wrong. Gas, pooling under the house.",
+   "scene": 6,
+   "face": "scared",
+   "face2": "count"
+  },
+  {
+   "i": 17,
+   "start": 190.39,
+   "dur": 13.468,
+   "text": "Behind the furnace, a pipe joint had split, hairline thin, hissing like a kettle. Below it, the pilot light burned, patient as an eye. We had hours, the fireman said later. Maybe less.",
+   "scene": 6,
+   "face": "count",
+   "face2": "worried"
+  },
+  {
+   "i": 18,
+   "start": 204.408,
+   "dur": 10.867,
+   "text": "I have never run upstairs so fast. Dad called the emergency line with shaking hands. Mom carried my sister out in a blanket, still asleep, still dreaming ordinary things.",
+   "scene": 9,
+   "face": "scared",
+   "face2": "worried"
+  },
+  {
+   "i": 19,
+   "start": 215.824,
+   "dur": 10.867,
+   "text": "The sixth night, we watched from the pavement in borrowed blankets while men with torches made our house safe. The count had stopped at six. Because we had finally listened at six.",
+   "scene": 9,
+   "face": "worried",
+   "face2": "neutral"
+  },
+  {
+   "i": 20,
+   "start": 229.741,
+   "dur": 10.867,
+   "text": "When the firefighters opened the wall, they found a space no wider than a coffin, and fifty years of tally marks in the wood. At the end of the marks, one word, carved deep. Listen.",
+   "scene": 10,
+   "face": "neutral",
+   "face2": "solemn"
+  },
+  {
+   "i": 21,
+   "start": 241.158,
+   "dur": 12.864,
+   "text": "They also found a tin whistle, and a photograph, the twin of mine. In this one, nobody had scratched out his face. Ellis was smiling, missing one front tooth, holding a birthday cake, proud as anything.",
+   "scene": 10,
+   "face": "solemn",
+   "face2": "happy"
+  },
+  {
+   "i": 22,
+   "start": 254.572,
+   "dur": 8.731,
+   "text": "We live in that house again now. The wall is solid, the pipes are new. But every family on our street knows the story, and every kid knows the rule.",
+   "scene": 10,
+   "face": "happy",
+   "face2": "neutral"
+  },
+  {
+   "i": 23,
+   "start": 265.853,
+   "dur": 15.186,
+   "text": "Because sometimes, late, I still knock once on my bedroom wall before I sleep. Softly. The way you knock on a friend's door. And every time, from somewhere far away and finally at rest, something kind knocks back. Once.",
+   "scene": 1,
+   "face": "happy",
+   "face2": "neutral"
+  }
+ ],
+ "shots": [
+  {
+   "id": 1,
+   "seg": 1,
+   "start": 0.0,
+   "end": 10.61,
+   "scene": 1
+  },
+  {
+   "id": 2,
+   "seg": 2,
+   "start": 10.61,
+   "end": 21.237,
+   "scene": 2
+  },
+  {
+   "id": 3,
+   "seg": 3,
+   "start": 21.237,
+   "end": 34.744,
+   "scene": 3
+  },
+  {
+   "id": 4,
+   "seg": 4,
+   "start": 34.744,
+   "end": 47.322,
+   "scene": 1
+  },
+  {
+   "id": 5,
+   "seg": 5,
+   "start": 47.322,
+   "end": 56.417,
+   "scene": 4
+  },
+  {
+   "id": 6,
+   "seg": 6,
+   "start": 56.417,
+   "end": 71.27,
+   "scene": 4
+  },
+  {
+   "id": 7,
+   "seg": 7,
+   "start": 71.27,
+   "end": 82.083,
+   "scene": 2
+  },
+  {
+   "id": 8,
+   "seg": 8,
+   "start": 82.083,
+   "end": 93.222,
+   "scene": 8
+  },
+  {
+   "id": 9,
+   "seg": 9,
+   "start": 93.222,
+   "end": 107.053,
+   "scene": 7
+  },
+  {
+   "id": 10,
+   "seg": 10,
+   "start": 107.053,
+   "end": 118.377,
+   "scene": 3
+  },
+  {
+   "id": 11,
+   "seg": 11,
+   "start": 118.377,
+   "end": 128.633,
+   "scene": 6
+  },
+  {
+   "id": 12,
+   "seg": 12,
+   "start": 128.633,
+   "end": 138.936,
+   "scene": 4
+  },
+  {
+   "id": 13,
+   "seg": 13,
+   "start": 138.936,
+   "end": 149.517,
+   "scene": 1
+  },
+  {
+   "id": 14,
+   "seg": 14,
+   "start": 149.517,
+   "end": 164.305,
+   "scene": 2
+  },
+  {
+   "id": 15,
+   "seg": 15,
+   "start": 164.305,
+   "end": 177.766,
+   "scene": 2
+  },
+  {
+   "id": 16,
+   "seg": 16,
+   "start": 177.766,
+   "end": 190.39,
+   "scene": 6
+  },
+  {
+   "id": 17,
+   "seg": 17,
+   "start": 190.39,
+   "end": 204.408,
+   "scene": 6
+  },
+  {
+   "id": 18,
+   "seg": 18,
+   "start": 204.408,
+   "end": 215.824,
+   "scene": 9
+  },
+  {
+   "id": 19,
+   "seg": 19,
+   "start": 215.824,
+   "end": 229.741,
+   "scene": 9
+  },
+  {
+   "id": 20,
+   "seg": 20,
+   "start": 229.741,
+   "end": 241.158,
+   "scene": 10
+  },
+  {
+   "id": 21,
+   "seg": 21,
+   "start": 241.158,
+   "end": 254.572,
+   "scene": 10
+  },
+  {
+   "id": 22,
+   "seg": 22,
+   "start": 254.572,
+   "end": 265.853,
+   "scene": 10
+  },
+  {
+   "id": 23,
+   "seg": 23,
+   "start": 265.853,
+   "end": 291.039,
+   "scene": 1
+  }
+ ],
+ "ev": {
+  "knocks": [
+   5.713,
+   18.873,
+   38.352,
+   44.126,
+   73.528,
+   75.888,
+   78.249,
+   108.992,
+   111.147,
+   113.302,
+   115.457,
+   140.541,
+   142.146,
+   143.751,
+   145.356,
+   146.961,
+   154.237,
+   159.182,
+   159.402,
+   159.622,
+   159.842,
+   160.062,
+   160.282,
+   219.084,
+   271.624,
+   279.976
+  ],
+  "endcard_at": 281.039,
+  "black_at": 290.489
+ },
+ "amb": [
+  {
+   "t0": 0.0,
+   "t1": 291.039,
+   "type": "wind",
+   "gain": 0.05
+  }
+ ],
+ "sfx": [
+  {
+   "t": 5.713,
+   "type": "knock",
+   "gain": 0.8
+  },
+  {
+   "t": 18.873,
+   "type": "knock",
+   "gain": 0.8
+  },
+  {
+   "t": 38.352,
+   "type": "knock",
+   "gain": 0.8
+  },
+  {
+   "t": 44.126,
+   "type": "knock",
+   "gain": 0.8
+  },
+  {
+   "t": 73.528,
+   "type": "knock",
+   "gain": 0.8
+  },
+  {
+   "t": 75.888,
+   "type": "knock",
+   "gain": 0.8
+  },
+  {
+   "t": 78.249,
+   "type": "knock",
+   "gain": 0.8
+  },
+  {
+   "t": 108.992,
+   "type": "knock",
+   "gain": 0.8
+  },
+  {
+   "t": 111.147,
+   "type": "knock",
+   "gain": 0.8
+  },
+  {
+   "t": 113.302,
+   "type": "knock",
+   "gain": 0.8
+  },
+  {
+   "t": 115.457,
+   "type": "knock",
+   "gain": 0.8
+  },
+  {
+   "t": 140.541,
+   "type": "knock",
+   "gain": 0.8
+  },
+  {
+   "t": 142.146,
+   "type": "knock",
+   "gain": 0.8
+  },
+  {
+   "t": 143.751,
+   "type": "knock",
+   "gain": 0.8
+  },
+  {
+   "t": 145.356,
+   "type": "knock",
+   "gain": 0.8
+  },
+  {
+   "t": 146.961,
+   "type": "knock",
+   "gain": 0.8
+  },
+  {
+   "t": 154.237,
+   "type": "knock",
+   "gain": 0.8
+  },
+  {
+   "t": 159.182,
+   "type": "knock",
+   "gain": 0.8
+  },
+  {
+   "t": 159.402,
+   "type": "knock",
+   "gain": 0.8
+  },
+  {
+   "t": 159.622,
+   "type": "knock",
+   "gain": 0.8
+  },
+  {
+   "t": 159.842,
+   "type": "knock",
+   "gain": 0.8
+  },
+  {
+   "t": 160.062,
+   "type": "knock",
+   "gain": 0.8
+  },
+  {
+   "t": 160.282,
+   "type": "knock",
+   "gain": 0.8
+  },
+  {
+   "t": 219.084,
+   "type": "knock",
+   "gain": 0.8
+  },
+  {
+   "t": 271.624,
+   "type": "knock",
+   "gain": 0.8
+  },
+  {
+   "t": 279.976,
+   "type": "knock",
+   "gain": 0.8
+  },
+  {
+   "t": 159.182,
+   "type": "knockback",
+   "gain": 0.5,
+   "pan": -0.6
+  },
+  {
+   "t": 159.402,
+   "type": "knockback",
+   "gain": 0.5,
+   "pan": -0.6
+  },
+  {
+   "t": 159.622,
+   "type": "knockback",
+   "gain": 0.5,
+   "pan": -0.6
+  },
+  {
+   "t": 159.842,
+   "type": "knockback",
+   "gain": 0.5,
+   "pan": -0.6
+  },
+  {
+   "t": 160.062,
+   "type": "knockback",
+   "gain": 0.5,
+   "pan": -0.6
+  },
+  {
+   "t": 160.282,
+   "type": "knockback",
+   "gain": 0.5,
+   "pan": -0.6
+  },
+  {
+   "t": 164.405,
+   "type": "sting",
+   "gain": 0.6
+  },
+  {
+   "t": 159.182,
+   "type": "sting",
+   "gain": 0.55
+  },
+  {
+   "t": 193.757,
+   "type": "hisslong",
+   "gain": 0.3
+  },
+  {
+   "t": 204.508,
+   "type": "whoosh",
+   "d": 0.5,
+   "gain": 0.4
+  },
+  {
+   "t": 204.558,
+   "type": "step",
+   "gain": 0.4
+  },
+  {
+   "t": 204.858,
+   "type": "step",
+   "gain": 0.4
+  },
+  {
+   "t": 205.158,
+   "type": "step",
+   "gain": 0.4
+  },
+  {
+   "t": 205.458,
+   "type": "step",
+   "gain": 0.4
+  },
+  {
+   "t": 205.758,
+   "type": "step",
+   "gain": 0.4
+  },
+  {
+   "t": 206.058,
+   "type": "step",
+   "gain": 0.4
+  },
+  {
+   "t": 206.358,
+   "type": "step",
+   "gain": 0.4
+  },
+  {
+   "t": 206.658,
+   "type": "step",
+   "gain": 0.4
+  },
+  {
+   "t": 206.958,
+   "type": "step",
+   "gain": 0.4
+  },
+  {
+   "t": 239.521,
+   "type": "bell",
+   "f": 660,
+   "gain": 0.3
+  },
+  {
+   "t": 282.239,
+   "type": "knock",
+   "gain": 0.7
+  },
+  {
+   "t": 290.439,
+   "type": "thud",
+   "gain": 0.4
+  },
+  {
+   "t": 10.45,
+   "type": "whoosh",
+   "d": 0.32,
+   "gain": 0.22
+  },
+  {
+   "t": 21.077,
+   "type": "whoosh",
+   "d": 0.32,
+   "gain": 0.22
+  },
+  {
+   "t": 34.584,
+   "type": "whoosh",
+   "d": 0.32,
+   "gain": 0.22
+  },
+  {
+   "t": 47.162,
+   "type": "whoosh",
+   "d": 0.32,
+   "gain": 0.22
+  },
+  {
+   "t": 56.257,
+   "type": "whoosh",
+   "d": 0.32,
+   "gain": 0.22
+  },
+  {
+   "t": 71.11,
+   "type": "whoosh",
+   "d": 0.32,
+   "gain": 0.22
+  },
+  {
+   "t": 81.923,
+   "type": "whoosh",
+   "d": 0.32,
+   "gain": 0.22
+  },
+  {
+   "t": 93.062,
+   "type": "whoosh",
+   "d": 0.32,
+   "gain": 0.22
+  },
+  {
+   "t": 106.893,
+   "type": "whoosh",
+   "d": 0.32,
+   "gain": 0.22
+  },
+  {
+   "t": 118.217,
+   "type": "whoosh",
+   "d": 0.32,
+   "gain": 0.22
+  },
+  {
+   "t": 128.473,
+   "type": "whoosh",
+   "d": 0.32,
+   "gain": 0.22
+  },
+  {
+   "t": 138.776,
+   "type": "whoosh",
+   "d": 0.32,
+   "gain": 0.22
+  },
+  {
+   "t": 149.357,
+   "type": "whoosh",
+   "d": 0.32,
+   "gain": 0.22
+  },
+  {
+   "t": 164.145,
+   "type": "whoosh",
+   "d": 0.32,
+   "gain": 0.22
+  },
+  {
+   "t": 177.606,
+   "type": "whoosh",
+   "d": 0.32,
+   "gain": 0.22
+  },
+  {
+   "t": 190.23,
+   "type": "whoosh",
+   "d": 0.32,
+   "gain": 0.22
+  },
+  {
+   "t": 204.248,
+   "type": "whoosh",
+   "d": 0.32,
+   "gain": 0.22
+  },
+  {
+   "t": 215.664,
+   "type": "whoosh",
+   "d": 0.32,
+   "gain": 0.22
+  },
+  {
+   "t": 229.581,
+   "type": "whoosh",
+   "d": 0.32,
+   "gain": 0.22
+  },
+  {
+   "t": 240.998,
+   "type": "whoosh",
+   "d": 0.32,
+   "gain": 0.22
+  },
+  {
+   "t": 254.412,
+   "type": "whoosh",
+   "d": 0.32,
+   "gain": 0.22
+  },
+  {
+   "t": 265.693,
+   "type": "whoosh",
+   "d": 0.32,
+   "gain": 0.22
+  }
+ ],
+ "chunks": [
+  {
+   "seg": 1,
+   "t0": 0.4,
+   "t1": 6.009,
+   "text": "On our first night in the new house, I heard a knock come from inside my bedroom wall."
+  },
+  {
+   "seg": 1,
+   "t0": 6.009,
+   "t1": 6.632,
+   "text": "Just one."
+  },
+  {
+   "seg": 1,
+   "t0": 6.632,
+   "t1": 10.06,
+   "text": "Slow, and patient, like somebody politely asking to be let out."
+  },
+  {
+   "seg": 2,
+   "t0": 10.61,
+   "t1": 16.992,
+   "text": "I pressed my ear against the wallpaper, and the wall felt cold, colder than the rest of the room."
+  },
+  {
+   "seg": 2,
+   "t0": 16.992,
+   "t1": 19.008,
+   "text": "Then something inside it knocked back."
+  },
+  {
+   "seg": 2,
+   "t0": 19.008,
+   "t1": 19.343,
+   "text": "Once."
+  },
+  {
+   "seg": 2,
+   "t0": 19.343,
+   "t1": 20.687,
+   "text": "Right beside my ear."
+  },
+  {
+   "seg": 3,
+   "t0": 21.237,
+   "t1": 30.55,
+   "text": "At breakfast I told my parents, and Dad laughed and said old houses settle, and pipes complain, and ten-year-old boys have excellent imaginations."
+  },
+  {
+   "seg": 3,
+   "t0": 30.55,
+   "t1": 34.194,
+   "text": "Mom gave me extra toast, her cure for everything."
+  },
+  {
+   "seg": 4,
+   "t0": 34.744,
+   "t1": 37.862,
+   "text": "The second night, there were two knocks."
+  },
+  {
+   "seg": 4,
+   "t0": 37.862,
+   "t1": 41.872,
+   "text": "I counted them like seconds between lightning and thunder."
+  },
+  {
+   "seg": 4,
+   "t0": 41.872,
+   "t1": 42.317,
+   "text": "Knock."
+  },
+  {
+   "seg": 4,
+   "t0": 42.317,
+   "t1": 44.99,
+   "text": "A long, held breath of silence."
+  },
+  {
+   "seg": 4,
+   "t0": 44.99,
+   "t1": 45.436,
+   "text": "Knock."
+  },
+  {
+   "seg": 4,
+   "t0": 45.436,
+   "t1": 46.772,
+   "text": "Closer than before."
+  },
+  {
+   "seg": 5,
+   "t0": 47.322,
+   "t1": 48.637,
+   "text": "At the library, Mrs."
+  },
+  {
+   "seg": 5,
+   "t0": 48.637,
+   "t1": 51.923,
+   "text": "Fern went very quiet when I told her our address."
+  },
+  {
+   "seg": 5,
+   "t0": 51.923,
+   "t1": 55.867,
+   "text": "She turned the microfilm dial, and a headline from nineteen seventy-four appeared."
+  },
+  {
+   "seg": 6,
+   "t0": 56.417,
+   "t1": 58.299,
+   "text": "A fire, the paper said."
+  },
+  {
+   "seg": 6,
+   "t0": 58.299,
+   "t1": 63.569,
+   "text": "The family got out, all except their youngest boy, Ellis, who was never found."
+  },
+  {
+   "seg": 6,
+   "t0": 63.569,
+   "t1": 65.827,
+   "text": "The investigators wrote one strange sentence."
+  },
+  {
+   "seg": 6,
+   "t0": 65.827,
+   "t1": 70.72,
+   "text": "The walls of that house were hollow, and wider than they should be."
+  },
+  {
+   "seg": 7,
+   "t0": 71.27,
+   "t1": 78.005,
+   "text": "The third night, there were three knocks, and I understood the pattern the way you understand a staircase in the dark."
+  },
+  {
+   "seg": 7,
+   "t0": 78.005,
+   "t1": 79.929,
+   "text": "One more knock, every single night."
+  },
+  {
+   "seg": 7,
+   "t0": 79.929,
+   "t1": 80.571,
+   "text": "Counting up."
+  },
+  {
+   "seg": 7,
+   "t0": 80.571,
+   "t1": 81.533,
+   "text": "Counting toward something."
+  },
+  {
+   "seg": 8,
+   "t0": 82.083,
+   "t1": 85.612,
+   "text": "In the attic I found a photograph taped inside a trunk."
+  },
+  {
+   "seg": 8,
+   "t0": 85.612,
+   "t1": 89.463,
+   "text": "A birthday party, nine candles, and a boy standing apart from everyone."
+  },
+  {
+   "seg": 8,
+   "t0": 89.463,
+   "t1": 90.746,
+   "text": "I turned it over."
+  },
+  {
+   "seg": 8,
+   "t0": 90.746,
+   "t1": 92.671,
+   "text": "Someone had scratched out his face."
+  },
+  {
+   "seg": 9,
+   "t0": 93.222,
+   "t1": 97.017,
+   "text": "That evening, in the bathroom mirror, he stood behind me."
+  },
+  {
+   "seg": 9,
+   "t0": 97.017,
+   "t1": 98.155,
+   "text": "Pale as paste."
+  },
+  {
+   "seg": 9,
+   "t0": 98.155,
+   "t1": 100.432,
+   "text": "Smooth where his face should be."
+  },
+  {
+   "seg": 9,
+   "t0": 100.432,
+   "t1": 101.571,
+   "text": "I spun around."
+  },
+  {
+   "seg": 9,
+   "t0": 101.571,
+   "t1": 106.504,
+   "text": "The room was empty, but the mirror fogged by itself, from the inside."
+  },
+  {
+   "seg": 10,
+   "t0": 107.053,
+   "t1": 111.43,
+   "text": "The fourth night, there were four knocks, and my parents heard them too."
+  },
+  {
+   "seg": 10,
+   "t0": 111.43,
+   "t1": 112.777,
+   "text": "Nobody laughed about pipes."
+  },
+  {
+   "seg": 10,
+   "t0": 112.777,
+   "t1": 117.827,
+   "text": "Dad stood in the hallway barefoot, holding a frying pan like a shield, saying nothing."
+  },
+  {
+   "seg": 11,
+   "t0": 118.377,
+   "t1": 119.894,
+   "text": "Dad checked the basement twice."
+  },
+  {
+   "seg": 11,
+   "t0": 119.894,
+   "t1": 122.32,
+   "text": "The furnace was old but sound, he said."
+  },
+  {
+   "seg": 11,
+   "t0": 122.32,
+   "t1": 128.083,
+   "text": "But when he came back upstairs, he was frowning at his hands, and his hands were dusty, and cold."
+  },
+  {
+   "seg": 12,
+   "t0": 128.633,
+   "t1": 128.938,
+   "text": "Mrs."
+  },
+  {
+   "seg": 12,
+   "t0": 128.938,
+   "t1": 131.376,
+   "text": "Fern told me the rest the next day."
+  },
+  {
+   "seg": 12,
+   "t0": 131.376,
+   "t1": 134.728,
+   "text": "Every family that moved into that house reported the same thing."
+  },
+  {
+   "seg": 12,
+   "t0": 134.728,
+   "t1": 135.947,
+   "text": "Knocking, always counting up."
+  },
+  {
+   "seg": 12,
+   "t0": 135.947,
+   "t1": 138.385,
+   "text": "And every family left before it reached seven."
+  },
+  {
+   "seg": 13,
+   "t0": 138.936,
+   "t1": 144.62,
+   "text": "The fifth night, there were five knocks, and underneath them I heard something moving inside the wall."
+  },
+  {
+   "seg": 13,
+   "t0": 144.62,
+   "t1": 145.958,
+   "text": "Not scurrying, like mice."
+  },
+  {
+   "seg": 13,
+   "t0": 145.958,
+   "t1": 146.292,
+   "text": "Shifting."
+  },
+  {
+   "seg": 13,
+   "t0": 146.292,
+   "t1": 148.967,
+   "text": "Somebody turning over in a very narrow bed."
+  },
+  {
+   "seg": 14,
+   "t0": 149.517,
+   "t1": 153.483,
+   "text": "So I did the thing I had feared since the first night."
+  },
+  {
+   "seg": 14,
+   "t0": 153.483,
+   "t1": 154.475,
+   "text": "I knocked back."
+  },
+  {
+   "seg": 14,
+   "t0": 154.475,
+   "t1": 154.805,
+   "text": "Once."
+  },
+  {
+   "seg": 14,
+   "t0": 154.805,
+   "t1": 157.119,
+   "text": "The wall went silent for one heartbeat."
+  },
+  {
+   "seg": 14,
+   "t0": 157.119,
+   "t1": 160.755,
+   "text": "Then every wall in the house knocked at the same time."
+  },
+  {
+   "seg": 15,
+   "t0": 164.305,
+   "t1": 167.702,
+   "text": "He was in the hallway when I opened my door."
+  },
+  {
+   "seg": 15,
+   "t0": 167.702,
+   "t1": 171.779,
+   "text": "Stretched thin, like the years inside the wall had pulled him long."
+  },
+  {
+   "seg": 15,
+   "t0": 171.779,
+   "t1": 174.837,
+   "text": "Where his face should be, only smooth, pale skin."
+  },
+  {
+   "seg": 15,
+   "t0": 174.837,
+   "t1": 177.215,
+   "text": "He raised one finger, and pointed down."
+  },
+  {
+   "seg": 16,
+   "t0": 177.766,
+   "t1": 179.324,
+   "text": "Down meant the basement."
+  },
+  {
+   "seg": 16,
+   "t0": 179.324,
+   "t1": 186.724,
+   "text": "I took the stairs two at a time, phone torch shaking, and I smelled it before I saw it."
+  },
+  {
+   "seg": 16,
+   "t0": 186.724,
+   "t1": 187.893,
+   "text": "Sweet, chemical, wrong."
+  },
+  {
+   "seg": 16,
+   "t0": 187.893,
+   "t1": 189.84,
+   "text": "Gas, pooling under the house."
+  },
+  {
+   "seg": 17,
+   "t0": 190.39,
+   "t1": 196.104,
+   "text": "Behind the furnace, a pipe joint had split, hairline thin, hissing like a kettle."
+  },
+  {
+   "seg": 17,
+   "t0": 196.104,
+   "t1": 200.185,
+   "text": "Below it, the pilot light burned, patient as an eye."
+  },
+  {
+   "seg": 17,
+   "t0": 200.185,
+   "t1": 203.042,
+   "text": "We had hours, the fireman said later."
+  },
+  {
+   "seg": 17,
+   "t0": 203.042,
+   "t1": 203.858,
+   "text": "Maybe less."
+  },
+  {
+   "seg": 18,
+   "t0": 204.408,
+   "t1": 207.031,
+   "text": "I have never run upstairs so fast."
+  },
+  {
+   "seg": 18,
+   "t0": 207.031,
+   "t1": 210.029,
+   "text": "Dad called the emergency line with shaking hands."
+  },
+  {
+   "seg": 18,
+   "t0": 210.029,
+   "t1": 215.275,
+   "text": "Mom carried my sister out in a blanket, still asleep, still dreaming ordinary things."
+  },
+  {
+   "seg": 19,
+   "t0": 215.824,
+   "t1": 222.276,
+   "text": "The sixth night, we watched from the pavement in borrowed blankets while men with torches made our house safe."
+  },
+  {
+   "seg": 19,
+   "t0": 222.276,
+   "t1": 224.314,
+   "text": "The count had stopped at six."
+  },
+  {
+   "seg": 19,
+   "t0": 224.314,
+   "t1": 226.691,
+   "text": "Because we had finally listened at six."
+  },
+  {
+   "seg": 20,
+   "t0": 229.741,
+   "t1": 237.193,
+   "text": "When the firefighters opened the wall, they found a space no wider than a coffin, and fifty years of tally marks in the wood."
+  },
+  {
+   "seg": 20,
+   "t0": 237.193,
+   "t1": 240.298,
+   "text": "At the end of the marks, one word, carved deep."
+  },
+  {
+   "seg": 20,
+   "t0": 240.298,
+   "t1": 240.608,
+   "text": "Listen."
+  },
+  {
+   "seg": 21,
+   "t0": 241.158,
+   "t1": 245.803,
+   "text": "They also found a tin whistle, and a photograph, the twin of mine."
+  },
+  {
+   "seg": 21,
+   "t0": 245.803,
+   "t1": 249.019,
+   "text": "In this one, nobody had scratched out his face."
+  },
+  {
+   "seg": 21,
+   "t0": 249.019,
+   "t1": 254.022,
+   "text": "Ellis was smiling, missing one front tooth, holding a birthday cake, proud as anything."
+  },
+  {
+   "seg": 22,
+   "t0": 254.572,
+   "t1": 256.609,
+   "text": "We live in that house again now."
+  },
+  {
+   "seg": 22,
+   "t0": 256.609,
+   "t1": 258.938,
+   "text": "The wall is solid, the pipes are new."
+  },
+  {
+   "seg": 22,
+   "t0": 258.938,
+   "t1": 263.303,
+   "text": "But every family on our street knows the story, and every kid knows the rule."
+  },
+  {
+   "seg": 23,
+   "t0": 265.853,
+   "t1": 271.304,
+   "text": "Because sometimes, late, I still knock once on my bedroom wall before I sleep."
+  },
+  {
+   "seg": 23,
+   "t0": 271.304,
+   "t1": 271.694,
+   "text": "Softly."
+  },
+  {
+   "seg": 23,
+   "t0": 271.694,
+   "t1": 274.809,
+   "text": "The way you knock on a friend's door."
+  },
+  {
+   "seg": 23,
+   "t0": 274.809,
+   "t1": 280.65,
+   "text": "And every time, from somewhere far away and finally at rest, something kind knocks back."
+  },
+  {
+   "seg": 23,
+   "t0": 280.65,
+   "t1": 281.039,
+   "text": "Once."
+  }
+ ],
+ "music": {
+  "bpm": 56,
+  "final": 289.839
+ }
+}
